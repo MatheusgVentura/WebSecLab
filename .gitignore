@@ -7,8 +7,13 @@ __pycache__/
 *.pyo
 *.pyd
 db.sqlite3
-media/
-uploads/
+
+# Media / Uploads (arquivos enviados por usuarios — nao enviar ao repositorio)
+# As pastas sao preservadas via arquivos .gitkeep
+backend/media/uploads/secure/*
+backend/media/uploads/vuln/*
+!backend/media/uploads/secure/.gitkeep
+!backend/media/uploads/vuln/.gitkeep
 
 # Node / Vite
 frontend/node_modules/
