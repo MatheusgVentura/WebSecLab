@@ -1,0 +1,27 @@
+# Python / Django
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+uploads/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# Env / System / IDE
+.env
+.idea/
+.vscode/
+.DS_Store
+.gemini/
+*.log
+
+# Local environment secrets
+backend/.env
